@@ -30,7 +30,12 @@ function changeSize(input){
     }
 }
 
-
+function resetBoard(){
+        let board = document.querySelector('.board');
+        let squares = board.querySelectorAll("div")
+    squares.forEach(()=> 
+    this.style.backgroundColor ='white'
+)}
 
 function changeColor(choice){
     color = choice
