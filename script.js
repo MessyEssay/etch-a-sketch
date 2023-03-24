@@ -33,8 +33,8 @@ function changeSize(input){
 function resetBoard(){
         let board = document.querySelector('.board');
         let squares = board.querySelectorAll("div")
-    squares.forEach(()=> 
-    this.style.backgroundColor ='white'
+    squares.forEach((square)=> 
+    square.style.backgroundColor ='white'
 )}
 
 function changeColor(choice){
